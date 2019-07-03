@@ -4,6 +4,8 @@ All transit nodes are assumed to be connected to all other nodes.
 
 #### Running
 python 3 only.
-`main.py` takes the number of nodes as 3 cl paramaters and sends output to stdout
+
+`main.py` takes the number of nodes as 3 cl paramaters and sends output to stdout.
+
 `runner.sh` given a fourth cl paramater, the location of a cplex installation, will automaticly pipe the output into cplex.
 
